@@ -1,0 +1,26 @@
+/*
+* This tasks.json is derived from the introvideo on visualstudio code's website:
+*   -- https://code.visualstudio.com/docs/cpp/introvideos-cpp
+*/
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "clang++ - Build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "targetArchitecture": "x86_64",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb", // this is the debugger
+            "logging": {
+                "engineLogging": true
+            },
+            "preLaunchTask": "C/C++: clang++ build active file"
+        }
+    ]
+}
