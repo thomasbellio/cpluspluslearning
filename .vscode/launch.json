@@ -1,7 +1,3 @@
-/*
-* This tasks.json is derived from the introvideo on visualstudio code's website:
-*   -- https://code.visualstudio.com/docs/cpp/introvideos-cpp
-*/
 {
     "version": "0.2.0",
     "configurations": [
@@ -16,7 +12,7 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
-            "MIMode": "lldb", // this is the debugger
+            "MIMode": "lldb",
             "logging": {
                 "engineLogging": true
             },
